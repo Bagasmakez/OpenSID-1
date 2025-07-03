@@ -38,8 +38,10 @@
 									<img src="<?= $logo_bsre ?>" alt="Bsre" class="img-responsive" style="width: 185px;" />
 								<?php endif ?>
 							</a>
+
+							<!-- //identitas desa  -->
 							<div class="login-footer-top">
-								<h1><?= ucwords($this->setting->sebutan_desa) ?> <?= $header['nama_desa'] ?></h1>
+								<h1><?= ucwords($this->setting->sebutan_desa) ?> <?= $header['nama_desa'] ?> </h1>
 								<h3>
 									<br /><?= $header['alamat_kantor'] ?><br />Kodepos <?= $header['kode_pos'] ?>
 									<br /><?= ucwords($this->setting->sebutan_kecamatan) ?> <?= $header['nama_kecamatan'] ?><br /><?= ucwords($this->setting->sebutan_kabupaten) ?> <?= $header['nama_kabupaten'] ?>
