@@ -7,7 +7,7 @@
 # mengizinkan penggunaan .htaccess
 #============
 RewriteEngine on
-RewriteBase /opensidpengabdian/
+RewriteBase /
 # Apabila menggunakan sub-domain atau sub-folder gunakan bentuk berikut
 # RewriteBase /nama-sub-folder/
 
